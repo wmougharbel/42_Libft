@@ -76,7 +76,7 @@ char	*ft_itoa(int n)
 		len++;
 		str[0] = '-';
 	}
-	else if (sign == 1)
+	else
 	{
 		str = malloc (sizeof(char) * (len + 1));
 		if (!str)
