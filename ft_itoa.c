@@ -64,7 +64,7 @@ char	*ft_itoa(int n)
 	int		sign;
 	int		tmp;
 	int		len;
-	char	*str;
+	char		*str;
 
 	ft_neg(&n, &sign, &tmp);
 	len = ft_len(n);
